@@ -4,3 +4,4 @@
 * 1.1.Advertising.py LinearRegression和pandas的简单应用
 * 1.2.LinearRegression_CV.py LinearRegression和Hyper parameters
 * 1.3.Split.py train_test_split的介绍
+* 1.4.Sigmod.py sigmod function
