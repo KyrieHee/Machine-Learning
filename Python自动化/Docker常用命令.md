@@ -1,11 +1,7 @@
 ### 1.生命周期命令
-* 创建一个容器（不启动它）：
+* 创建一个容器（不启动它）  docker create [IMAGE]
 
-docker create [IMAGE]
-
-* 重命名现有容器
-
-docker rename [CONTAINER_NAME] [NEW_CONTAINER_NAME]
+* 重命名现有容器  docker rename [CONTAINER_NAME] [NEW_CONTAINER_NAME]
 
 * 在新容器中运行命令
 docker run [IMAGE] [COMMAND]
@@ -127,8 +123,8 @@ docker network rm [NETWORK]
 * 显示一个或多个网络的信息
 docker network inspect [NETWORK]
 
-将容器连接到网络
+* 将容器连接到网络
 docker network connect [NETWORK] [CONTAINER]
 
-断开容器与网络的连接
+* 断开容器与网络的连接
 docker network disconnect [NETWORK] [CONTAINER]
